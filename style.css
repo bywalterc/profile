@@ -94,7 +94,6 @@ img {
   padding: 10px 30px;                             /* Internal space */
   border-radius: 4px;                        /* Small radius */
   box-shadow: 0 10px 30px rgba(0,0,0,.2);
-  width: 600px;        /* Set the width */
   margin: 0 auto;
   border-radius: 16px;
 }
