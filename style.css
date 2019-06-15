@@ -1,0 +1,108 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 18px;
+  /*background-color: rgb(20,20,20);*/
+  background-color: rgba(0,0,0,.81);
+  color: rgb(240,240,240);
+  text-align: center;
+}
+
+
+h1, h2{
+  font-weight: 300;
+  color: rgb(220,220,220);
+}
+
+h1 {
+  line-height: 65px;
+  margin-top: 8px;
+}
+h2{
+  font-size: 20px;
+  line-height: 20px;
+}
+
+a {
+  color: rgb(150,150,150);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(200,200,200);
+}
+
+p {
+  margin: 46px;
+}
+
+img {
+  padding: 16px;
+}
+
+
+
+#profile_pic {
+  background-image: url('./images/Walter_Headshot.jpg');
+  width: 270px;
+  height: 270px;
+  border-radius: 5%;
+  background-size: contain;
+  margin: 0 auto;
+}
+
+.list-inline{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.btn-animated {
+  display: block;
+  font-size: 18px;
+  color: rgb(245,245,245);
+  background-color: rgba(0,0,0,.4);
+  padding: 8px 24px;
+  border-radius: 24px;
+  margin: 12px auto 32px auto;
+  width: 200px;
+}
+
+.btn-animated:hover {
+  font-size: 17px;
+}
+
+.social-icon {
+  font-size: 30px;
+  color: rgb(150,150,150);
+  margin: 8px 16px;
+}
+
+.social-icon:hover {
+  font-size: 29px;
+  color: rgb(100,100,100);
+}
+
+.blurb {
+  margin: 48px auto 32px auto;
+  width: 480px;
+}
+
+.card_grey {
+  background: rgba(0,0,0,0);                         /* White background */
+  padding: 10px 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+  width: 600px;        /* Set the width */
+  margin: 0 auto;
+  border-radius: 16px;
+}
+
+.footer {
+  font-size: 14px;
+  color: rgb(100,100,100);
+  margin-top: 16px;
+}
