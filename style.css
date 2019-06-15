@@ -114,22 +114,3 @@ img {
   text-align: center;
 }
 
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .main, .card_grey, .footer {
-    width: 400px;
-  }
-  .blurb {
-    width: 350px;
-  }
-}
-
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .main, .card_grey, .footer {
-    width: 400px;
-  }
-  .blurb {
-    width: 350px;
-  }
-}
