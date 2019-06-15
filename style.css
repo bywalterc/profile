@@ -53,7 +53,7 @@ img {
 #profile_pic {
   background-image: url('./images/Walter_Headshot.jpg');
   width: 250px;
-  height: 270px;
+  height: 250px;
   border-radius: 5%;
   background-size: contain;
   margin: 0 auto;
