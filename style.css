@@ -110,21 +110,20 @@ img {
   font-size: 14px;
   color: rgb(100,100,100);
   margin-top: 16px;
-  /*margin-right: auto;
-  margin-left: auto;*/
+  width: 600px;
   margin: 0 auto;
 }
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
-  .card_grey {
+  .main, .card_grey, .footer {
     width: 400px;
   }
   .blurb {
-    width: 480px;
+    width: 350px;
   }
 }
-}
+
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .main, .card_grey, .footer {
