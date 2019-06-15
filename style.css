@@ -40,7 +40,6 @@ img {
 }
 
 
-
 #profile_pic {
   background-image: url('./images/Walter_Headshot.jpg');
   width: 270px;
@@ -88,7 +87,6 @@ img {
 
 .blurb {
   margin: 48px auto 32px auto;
-  width: 480px;
 }
 
 .card_grey {
@@ -105,4 +103,26 @@ img {
   font-size: 14px;
   color: rgb(100,100,100);
   margin-top: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card_grey {
+    width: 600px;
+  }
+  .blurb {
+    width: 480px;
+  }
+}
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card_grey {
+    width: 400px;
+  }
+  .blurb {
+    width: 350px;
+  }
 }
