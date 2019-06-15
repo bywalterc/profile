@@ -85,9 +85,9 @@ img {
   color: rgb(100,100,100);
 }
 
-.blurb {
-  margin: 48px auto 32px auto;
-  width: 480px;
+.main {
+  width: 600px;
+  margin: 0 auto;
 }
 
 .card_grey {
@@ -99,6 +99,12 @@ img {
   border-radius: 16px;
   width: 600px;
 }
+
+.blurb {
+  margin: 48px auto 32px auto;
+  width: 480px;
+}
+
 
 .footer {
   font-size: 14px;
@@ -121,7 +127,7 @@ img {
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
-  .card_grey, .footer {
+  .main, .card_grey, .footer {
     width: 400px;
   }
   .blurb {
