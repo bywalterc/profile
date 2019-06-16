@@ -20,7 +20,7 @@ body {
 
 h1, h2{
   font-weight: 300;
-  color: rgb(220,220,220);
+  color: rgb(240,240,240);
 }
 
 h1 {
@@ -33,12 +33,12 @@ h2{
 }
 
 a {
-  color: rgb(150,150,150);
+  color: rgb(200,200,200);
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(200,200,200);
+  color: rgb(220,220,220);
 }
 
 p {
@@ -86,13 +86,13 @@ img {
 
 .social-icon {
   font-size: 30px;
-  color: rgb(150,150,150);
+  color: rgb(200,200,200);
   margin: 8px 16px;
 }
 
 .social-icon:hover {
   font-size: 29px;
-  color: rgb(100,100,100);
+  color: rgb(150,150,150);
 }
 
 .main {
@@ -118,7 +118,7 @@ img {
 
 .footer {
   font-size: 14px;
-  color: rgb(100,100,100);
+  color: rgb(130,130,130);
   width: 600px;
   text-align: center;
   padding: 10px 30px;
