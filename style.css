@@ -101,7 +101,7 @@ img {
 }
 
 .card_grey {
-  background: rgba(20,20,20,0);                         /* White background */
+  background: rgba(30,30,30,0);                         /* White background */
   padding: 10px 30px;                             /* Internal space */
   border-radius: 4px;                        /* Small radius */
   box-shadow: 0 10px 30px rgba(0,0,0,.2);
